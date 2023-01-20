@@ -1,11 +1,12 @@
 import React from 'react'
+import RegisterPage from './pages/RegisterPage';
 
 function App() {
-  return (
-    <div>
-      Team7
-    </div>
-  );
+	return (
+		<div>
+			<RegisterPage/>
+		</div>
+	);
 }
 
 export default App;
