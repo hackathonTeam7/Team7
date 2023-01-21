@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import soloEngImg from '../../src/images/logo.png';
 import './registerPage.css';
 
@@ -17,7 +18,7 @@ const RegisterPage = () => {
 							<div className="register__form-block">
 								<div className="register__form-link">
 									<p>Уже есть аккаунт?
-										<a href='#logo'>Войти</a>
+										<Link to='/login'>Войти</Link>
 									</p>
 								</div>
 								<div className="register__input-Div">
@@ -47,10 +48,10 @@ const RegisterPage = () => {
 								<p>Или войти с помощью</p>
 								<div className="register__gf">
 									<div className="google__signin">
-										<a href="#google" className="google__signin-link">Google</a>
+										<Link to="#google" className="google__signin-link">Google</Link>
 									</div>
 									<div className="facebook__signin">
-										<a href="#facebook" className="facebook__signin-link">Facebook</a>
+										<Link to="#facebook" className="facebook__signin-link">Facebook</Link>
 									</div>
 								</div>
 							</div>

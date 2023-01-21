@@ -1,10 +1,12 @@
 import React from 'react'
-import RegisterPage from './pages/RegisterPage';
+import MainRoutes from './MainRoutes';
+import HomePage from './pages/HomePage';
 
 function App() {
 	return (
 		<div>
-			<RegisterPage/>
+			<HomePage/>
+			<MainRoutes/>
 		</div>
 	);
 }
