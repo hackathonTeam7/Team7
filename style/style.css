@@ -1,8 +1,11 @@
 body {
-  background: #f5f5f5;
+  background: #fffaef;
 }
 #site {
   display: flex;
+}
+#burger {
+  display: none;
 }
 
 /* TODO menu srt  */
@@ -26,7 +29,7 @@ body {
 }
 .menu {
   height: 63.01984786987305px;
-  width: 336.11px;
+  width: 325px;
   left: -19px;
   top: 250px;
   border-bottom-right-radius: 8.4026460647583px;
@@ -52,7 +55,7 @@ body {
 }
 .menuOut {
   height: 63.01984786987305px;
-  width: 336.11px;
+  width: 325px;
   left: -19px;
   top: 250px;
   border-bottom-right-radius: 8.4026460647583px;
@@ -77,12 +80,20 @@ body {
 }
 
 #menu {
-  display: flex;
-  flex-direction: column;
+  position: absolute;
   border-right: #ffffff solid 1px;
   width: 340px;
   height: 899px;
   background-color: #7573f2;
+  top: 0px;
+  left: 0px;
+}
+.iconsMenu {
+  margin-right: 15px;
+  padding-top: 0px;
+}
+.iconsMenuKing {
+  margin-right: 0px;
 }
 
 /* TODO menu end */
@@ -123,7 +134,7 @@ input {
 
   border: #7573f2 solid 2px;
   border-radius: 25px;
-  background-color: #f5f5f5;
+  background-color: #fffaef;
 }
 #avatar {
   height: 72px;
@@ -331,12 +342,20 @@ p {
 }
 
 .btnCourses {
-  border: #5d70ce 1px solid;
+  border: #ff8a00 1px solid;
   width: 111px;
   height: 32px;
-  background: #5d70ce;
+  background: #ff8a00;
   border-radius: 6.04231px;
   color: #ffffff;
+}
+
+#rating {
+  height: 16.465116500854492px;
+  width: 113.88372039794922px;
+  left: 570px;
+  top: 611px;
+  border-radius: 0px;
 }
 
 /* ? cards end */

@@ -5,22 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/styleAdaptive.css" />
     <title>SoloEng</title>
   </head>
   <body>
     <div id="site">
       <!-- * str menu -->
+      <button id="burger">
+        <img id="burger-image" src="./logo/Burger.png" alt="" />
+      </button>
       <div id="menu">
-        <button id="logo"><img src="./logo/SoloEng.png" alt="" /></button>
-        <button class="menu">Главная</button>
-        <button class="menu">Курсы</button>
-        <button class="menuOut">Выйти</button>
+        <button id="logo">
+          <img class="iconsMenu" src="./logo/SoloEng.png" alt="" />
+        </button>
+
+        <button class="menu">
+          <img
+            class="iconsMenu"
+            src="./logo/IconsMenuWhite/Dashboard Icon.png"
+            alt=""
+          />
+          Главная
+        </button>
+        <button class="menu">
+          <img
+            class="iconsMenu"
+            src="./logo/IconsMenuWhite/Projects Icon.png"
+            alt=""
+          />
+          Курсы
+        </button>
+        <button class="menu">
+          <img
+            class="iconsMenu"
+            src="./logo/IconsMenuWhite/Vector (4).png"
+            alt=""
+          />
+          Словарь
+        </button>
+        <button class="menu">
+          <img id="iconsMenuKing" src="./logo/Group (1).png" alt="" /> Рейтинг
+        </button>
+
+        <button class="menuOut">
+          <img
+            class="iconsMenu"
+            src="./logo/IconsMenuWhite/Logout Icon.png"
+            alt=""
+          />
+          Выйти
+        </button>
       </div>
       <!-- * end menu -->
 
       <!-- TODO str navbar -->
       <div id="navbar">
-        <h2>Hi Username!</h2>
+        <h2>Hi Jay Park!</h2>
         <input type="search" />
         <img src="./logo/AvatarPurple.png" id="avatar" alt="" />
       </div>
@@ -49,12 +89,16 @@
               <p>0% Complete</p>
               <div class="process" />
             </div>
-            <button class="btnCourses">Вы подписаны</button>
+            <button onclick="ClickMouse()" class="btnCourses">
+              Подписаться
+            </button>
+            <div id="rating"></div>
           </div>
         </div>
       </div>
 
       <!-- ? end products -->
     </div>
+    <script src="./js/motion.js"></script>
   </body>
 </html>
